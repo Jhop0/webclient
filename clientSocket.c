@@ -18,7 +18,7 @@ int socketInit ()
 {
 	int newSocket;
 
-	printf("\n+++ Socket Initt\n");
+	printf("--> Init socket\n");
 
 	/* make a socket */
 	newSocket=socket(AF_INET,SOCK_STREAM,IPPROTO_TCP);
@@ -38,29 +38,28 @@ int serverConnect(char* srvName, int srvPort, int sock)
 	struct sockaddr_in Address; /* Internet socket address stuct */
 	int addressSize=sizeof(struct sockaddr_in);
 
-	printf("Server Name: %s\n",srvName);
+	printf("--> Server Name: %s\n",srvName);
 	/* get IP address from name */
 	hostInfo=gethostbyname(srvName);
 	/* copy address into long */
 	memcpy(&srvAddress,hostInfo->h_addr,hostInfo->h_length);
-
 
 	/* fill address struct */
 	Address.sin_addr.s_addr=srvAddress;
 	Address.sin_port=htons(srvPort);
 	Address.sin_family=AF_INET;
 
-	printf("\n+++ Connecting to [%s] on port [%d]\n",srvName,srvPort);
+	printf("--> Connecting to [%s] on port [%d]\n",srvName,srvPort);
 
 	if(connect(sock,(struct sockaddr*)&Address,sizeof(Address))
 			   == SOCKET_ERROR)
 	{
-		printf("\n*** Could not connect to host\n");
+		printf("\n*** Could not connect to server\n");
 		exit(0);
 	}
 
 	getsockname(sock, (struct sockaddr *) &Address,(socklen_t *)&addressSize);
-	printf("\n+++ Opened socket as fd (%d) on port (%d) for stream i/o\n",sock, ntohs(Address.sin_port) );
+	printf("--> Opened socket as fd (%d) on port (%d) for stream i/o\n",sock, ntohs(Address.sin_port) );
 
 	printf("Server\n\
 		  sin_family        = %d\n\
