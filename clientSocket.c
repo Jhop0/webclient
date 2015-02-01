@@ -18,7 +18,7 @@ int socketInit ()
 {
 	int newSocket;
 
-	printf("--> Init socket\n");
+	printf("INFO:[%010u] Init socket\n", pthread_self());
 
 	/* make a socket */
 	newSocket=socket(AF_INET,SOCK_STREAM,IPPROTO_TCP);
@@ -38,7 +38,7 @@ int serverConnect(char* srvName, int srvPort, int sock)
 	struct sockaddr_in Address; /* Internet socket address stuct */
 	int addressSize=sizeof(struct sockaddr_in);
 
-	printf("--> Server Name: %s\n",srvName);
+	printf("INFO:[%010u] Server Name: %s\n", pthread_self(), srvName);
 	/* get IP address from name */
 	hostInfo=gethostbyname(srvName);
 	/* copy address into long */
@@ -49,7 +49,7 @@ int serverConnect(char* srvName, int srvPort, int sock)
 	Address.sin_port=htons(srvPort);
 	Address.sin_family=AF_INET;
 
-	printf("--> Connecting to [%s] on port [%d]\n",srvName,srvPort);
+	printf("INFO:[%010u] Connecting to [%s] on port [%d]\n", pthread_self(), srvName,srvPort);
 
 	if(connect(sock,(struct sockaddr*)&Address,sizeof(Address))
 			   == SOCKET_ERROR)
@@ -59,7 +59,7 @@ int serverConnect(char* srvName, int srvPort, int sock)
 	}
 
 	getsockname(sock, (struct sockaddr *) &Address,(socklen_t *)&addressSize);
-	printf("--> Opened socket as fd (%d) on port (%d) for stream i/o\n",sock, ntohs(Address.sin_port) );
+	printf("INFO:[%010u] Opened socket as fd (%d) on port (%d) for stream i/o\n", pthread_self(), sock, ntohs(Address.sin_port) );
 
 	printf("Server\n\
 		  sin_family        = %d\n\

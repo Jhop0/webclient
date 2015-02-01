@@ -1,0 +1,2779 @@
+Total requests:[99]
+Worker threads:[10]
+--> Queue initialized ... 
+--> Creating [10] worker threads .... 
+INFO:[4239890176] Entered serverReq
+INFO:[4239890176] Requests needed from thread:[10]
+INFO:[4248282880] Entered serverReq
+INFO:[4248282880] Requests needed from thread:[10]
+INFO:[4231497472] Entered serverReq
+INFO:[4231497472] Requests needed from thread:[10]
+INFO:[4248282880] waiting ...
+INFO:[4223104768] Entered serverReq
+INFO:[4223104768] Requests needed from thread:[10]
+INFO:[4231497472] waiting ...
+INFO:[4223104768] waiting ...
+INFO:[4239890176] waiting ...
+INFO:[4214712064] Entered serverReq
+INFO:[4214712064] Requests needed from thread:[10]
+INFO:[4189533952] Entered serverReq
+INFO:[4189533952] Requests needed from thread:[10]
+INFO:[4197926656] Entered serverReq
+INFO:[4197926656] Requests needed from thread:[10]
+INFO:[4214712064] waiting ...
+INFO:[4206319360] Entered serverReq
+INFO:[4206319360] Requests needed from thread:[10]
+INFO:[4189533952] waiting ...
+INFO:[4181141248] Entered serverReq
+INFO:[4181141248] Requests needed from thread:[9]
+INFO:[4197926656] waiting ...
+INFO:[4206319360] waiting ...
+DEBUG: Workload:[./workload.txt], fd:[14297936]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-0.png
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-1.html
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-2.png
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-3.jpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-4.png
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-0.jpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-0.png
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-1.html
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-2.png
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-3.jpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-4.png
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-0.jpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-0.png
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-1.html
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-2.png
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-3.jpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-4.png
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-0.jpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-0.png
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-1.html
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-2.png
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-3.jpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-4.png
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-0.jpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-0.png
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-1.html
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-2.png
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-3.jpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-4.png
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-0.jpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-0.png
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-1.html
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-2.png
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-3.jpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-4.png
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-0.jpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-0.png
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-3.mpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-1.html
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-2.png
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-3.jpg
+]
+DEBUG:[4256585536] New Q entry:[1kb-sample-file-4.png
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-0.jpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-1.txt
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-2.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[1mb-sample-file-4.mpg
+]
+DEBUG:[4256585536] New Q entry:[10mb-sample-file-1.txt
+]
+INFO:[4172748544] Entered serverReq
+INFO:[4172748544] Requests needed from thread:[9]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59269) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59269
+INFO:[4248282880] Dequed value : [10mb-sample-file-1.txt
+]
+INFO:[4248282880] deQ filename:[10mb-sample-file-1.txt
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 10mb-sample-file-1.txt
+]
+INFO:[4248282880] Parsed:[GetFile][GET][10mb-sample-file-1.txt
+]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+INFO:[4231497472] Opened socket as fd (4) on port (59270) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59270
+INFO:[4231497472] Dequed value : [10mb-sample-file-3.mpg
+]
+INFO:[4231497472] deQ filename:[10mb-sample-file-3.mpg
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 10mb-sample-file-3.mpg
+]
+INFO:[4231497472] Parsed:[GetFile][GET][10mb-sample-file-3.mpg
+]
+INFO:[4231497472] Send cmd:[GetFile GET 10mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[4]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Opened socket as fd (5) on port (59271) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59271
+INFO:[4223104768] Dequed value : [1kb-sample-file-0.png
+]
+INFO:[4223104768] deQ filename:[1kb-sample-file-0.png
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1kb-sample-file-0.png
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1kb-sample-file-0.png
+]
+INFO:[4223104768] Send cmd:[GetFile GET 1kb-sample-file-0.png
+] sent bytes:[4096] fd:[5]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4239890176] Opened socket as fd (6) on port (59272) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59272
+INFO:[4239890176] Dequed value : [1mb-sample-file-3.mpg
+]
+INFO:[4239890176] deQ filename:[1mb-sample-file-3.mpg
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1mb-sample-file-3.mpg
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1mb-sample-file-3.mpg
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[6]
+INFO:[4248282880] Send cmd:[GetFile GET 10mb-sample-file-1.txt
+] sent bytes:[4096] fd:[3]
+INFO:[4248282880] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 10485760]
+INFO:[4248282880] Parsed:[GetFile][OK][10485760]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [10485760]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (7) on port (59273) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59273
+INFO:[4214712064] Dequed value : [1kb-sample-file-1.html
+]
+INFO:[4214712064] deQ filename:[1kb-sample-file-1.html
+]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (8) on port (59274) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59274
+INFO:[4189533952] Dequed value : [1kb-sample-file-2.png
+]
+INFO:[4189533952] deQ filename:[1kb-sample-file-2.png
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 1kb-sample-file-2.png
+]
+INFO:[4189533952] Parsed:[GetFile][GET][1kb-sample-file-2.png
+]
+INFO:[4189533952] Send cmd:[GetFile GET 1kb-sample-file-2.png
+] sent bytes:[4096] fd:[8]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 1kb-sample-file-1.html
+]
+INFO:[4214712064] Parsed:[GetFile][GET][1kb-sample-file-1.html
+]
+INFO:[4214712064] Send cmd:[GetFile GET 1kb-sample-file-1.html
+] sent bytes:[4096] fd:[7]
+INFO:[4231497472] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 10193068]
+INFO:[4231497472] Parsed:[GetFile][OK][10193068]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [10193068]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (9) on port (59275) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59275
+INFO:[4197926656] Dequed value : [1kb-sample-file-3.jpg
+]
+INFO:[4197926656] deQ filename:[1kb-sample-file-3.jpg
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1kb-sample-file-3.jpg
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1kb-sample-file-3.jpg
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1kb-sample-file-3.jpg
+] sent bytes:[4096] fd:[9]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (10) on port (59276) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59276
+INFO:[4206319360] Dequed value : [1kb-sample-file-4.png
+]
+INFO:[4206319360] deQ filename:[1kb-sample-file-4.png
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 1kb-sample-file-4.png
+]
+INFO:[4206319360] Parsed:[GetFile][GET][1kb-sample-file-4.png
+]
+INFO:[4206319360] Send cmd:[GetFile GET 1kb-sample-file-4.png
+] sent bytes:[4096] fd:[10]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1270]
+INFO:[4223104768] Parsed:[GetFile][OK][1270]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1270]
+INFO:[4239890176] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1113483]
+INFO:[4239890176] Parsed:[GetFile][OK][1113483]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1113483]
+INFO:[4214712064] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 1034]
+INFO:[4214712064] Parsed:[GetFile][OK][1034]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [1034]
+INFO:[4189533952] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 1073]
+INFO:[4189533952] Parsed:[GetFile][OK][1073]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [1073]
+INFO:[4197926656] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1295]
+INFO:[4197926656] Parsed:[GetFile][OK][1295]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1295]
+INFO:[4206319360] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 1273]
+INFO:[4206319360] Parsed:[GetFile][OK][1273]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [1273]
+INFO:[4172748544] Opened socket as fd (11) on port (59277) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59277
+INFO:[4172748544] Dequed value : [10mb-sample-file-2.mpg
+]
+INFO:[4172748544] deQ filename:[10mb-sample-file-2.mpg
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 10mb-sample-file-2.mpg
+]
+INFO:[4172748544] Parsed:[GetFile][GET][10mb-sample-file-2.mpg
+]
+INFO:[4172748544] Send cmd:[GetFile GET 10mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[11]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4181141248] Opened socket as fd (12) on port (59278) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59278
+INFO:[4181141248] Dequed value : [1mb-sample-file-0.jpg
+]
+INFO:[4181141248] deQ filename:[1mb-sample-file-0.jpg
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 1mb-sample-file-0.jpg
+]
+INFO:[4181141248] Parsed:[GetFile][GET][1mb-sample-file-0.jpg
+]
+INFO:[4181141248] Send cmd:[GetFile GET 1mb-sample-file-0.jpg
+] sent bytes:[4096] fd:[12]
+INFO:[4172748544] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 10727428]
+INFO:[4172748544] Parsed:[GetFile][OK][10727428]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [10727428]
+INFO:[4181141248] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 1006093]
+INFO:[4181141248] Parsed:[GetFile][OK][1006093]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [1006093]
+====>[4181141248] Recd file:[1mb-sample-file-0.jpg][1006093 bytes][246 recvs]
+====>[4181141248] Total Requests Done:[1]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4181141248] Opened socket as fd (12) on port (59279) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59279
+INFO:[4181141248] Dequed value : [1mb-sample-file-1.txt
+]
+INFO:[4181141248] deQ filename:[1mb-sample-file-1.txt
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 1mb-sample-file-1.txt
+]
+INFO:[4181141248] Parsed:[GetFile][GET][1mb-sample-file-1.txt
+]
+INFO:[4181141248] Send cmd:[GetFile GET 1mb-sample-file-1.txt
+] sent bytes:[4096] fd:[12]
+INFO:[4181141248] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 1048576]
+INFO:[4181141248] Parsed:[GetFile][OK][1048576]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [1048576]
+====>[4223104768] Recd file:[1kb-sample-file-0.png][1270 bytes][1 recvs]
+====>[4223104768] Total Requests Done:[2]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+====>[4239890176] Recd file:[1mb-sample-file-3.mpg][1113483 bytes][272 recvs]
+INFO:[4223104768] Opened socket as fd (5) on port (59280) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59280
+INFO:[4223104768] Dequed value : [1mb-sample-file-2.mpg
+]
+INFO:[4223104768] deQ filename:[1mb-sample-file-2.mpg
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1mb-sample-file-2.mpg
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1mb-sample-file-2.mpg
+]
+INFO:[4223104768] Send cmd:[GetFile GET 1mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[5]
+====>[4239890176] Total Requests Done:[3]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4239890176] Opened socket as fd (6) on port (59281) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59281
+INFO:[4239890176] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4239890176] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[6]
+====>[4189533952] Recd file:[1kb-sample-file-2.png][1073 bytes][1 recvs]
+====>[4189533952] Total Requests Done:[4]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (8) on port (59282) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59282
+INFO:[4189533952] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4189533952] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4189533952] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4189533952] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[8]
+====>[4214712064] Recd file:[1kb-sample-file-1.html][1034 bytes][1 recvs]
+====>[4214712064] Total Requests Done:[5]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (7) on port (59283) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59283
+INFO:[4214712064] Dequed value : [10mb-sample-file-1.txt
+]
+INFO:[4214712064] deQ filename:[10mb-sample-file-1.txt
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 10mb-sample-file-1.txt
+]
+INFO:[4214712064] Parsed:[GetFile][GET][10mb-sample-file-1.txt
+]
+INFO:[4214712064] Send cmd:[GetFile GET 10mb-sample-file-1.txt
+] sent bytes:[4096] fd:[7]
+====>[4197926656] Recd file:[1kb-sample-file-3.jpg][1295 bytes][1 recvs]
+====>[4197926656] Total Requests Done:[6]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (9) on port (59284) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59284
+INFO:[4197926656] Dequed value : [10mb-sample-file-3.mpg
+]
+INFO:[4197926656] deQ filename:[10mb-sample-file-3.mpg
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 10mb-sample-file-3.mpg
+]
+INFO:[4197926656] Parsed:[GetFile][GET][10mb-sample-file-3.mpg
+]
+INFO:[4197926656] Send cmd:[GetFile GET 10mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[9]
+====>[4206319360] Recd file:[1kb-sample-file-4.png][1273 bytes][1 recvs]
+====>[4206319360] Total Requests Done:[7]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (10) on port (59285) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59285
+INFO:[4206319360] Dequed value : [1kb-sample-file-0.png
+]
+INFO:[4206319360] deQ filename:[1kb-sample-file-0.png
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 1kb-sample-file-0.png
+]
+INFO:[4206319360] Parsed:[GetFile][GET][1kb-sample-file-0.png
+]
+INFO:[4206319360] Send cmd:[GetFile GET 1kb-sample-file-0.png
+] sent bytes:[4096] fd:[10]
+====>[4181141248] Recd file:[1mb-sample-file-1.txt][1048576 bytes][256 recvs]
+====>[4181141248] Total Requests Done:[8]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4181141248] Opened socket as fd (12) on port (59286) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59286
+INFO:[4181141248] Dequed value : [1mb-sample-file-3.mpg
+]
+INFO:[4181141248] deQ filename:[1mb-sample-file-3.mpg
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 1mb-sample-file-3.mpg
+]
+INFO:[4181141248] Parsed:[GetFile][GET][1mb-sample-file-3.mpg
+]
+INFO:[4181141248] Send cmd:[GetFile GET 1mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[12]
+INFO:[4223104768] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1116296]
+INFO:[4223104768] Parsed:[GetFile][OK][1116296]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1116296]
+====>[4223104768] Recd file:[1mb-sample-file-2.mpg][1116296 bytes][273 recvs]
+====>[4223104768] Total Requests Done:[9]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Opened socket as fd (5) on port (59287) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59287
+INFO:[4223104768] Dequed value : [1kb-sample-file-1.html
+]
+INFO:[4223104768] deQ filename:[1kb-sample-file-1.html
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1kb-sample-file-1.html
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1kb-sample-file-1.html
+]
+INFO:[4223104768] Send cmd:[GetFile GET 1kb-sample-file-1.html
+] sent bytes:[4096] fd:[5]
+INFO:[4239890176] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4239890176] Parsed:[GetFile][OK][1236525]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1236525]
+====>[4239890176] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][302 recvs]
+====>[4239890176] Total Requests Done:[10]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4239890176] Opened socket as fd (6) on port (59288) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59288
+INFO:[4239890176] Dequed value : [1kb-sample-file-2.png
+]
+INFO:[4239890176] deQ filename:[1kb-sample-file-2.png
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1kb-sample-file-2.png
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1kb-sample-file-2.png
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1kb-sample-file-2.png
+] sent bytes:[4096] fd:[6]
+INFO:[4189533952] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4189533952] Parsed:[GetFile][OK][1236525]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [1236525]
+====>[4172748544] Recd file:[10mb-sample-file-2.mpg][10727428 bytes][2621 recvs]
+====>[4172748544] Total Requests Done:[11]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Opened socket as fd (11) on port (59289) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59289
+INFO:[4172748544] Dequed value : [1kb-sample-file-3.jpg
+]
+INFO:[4172748544] deQ filename:[1kb-sample-file-3.jpg
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 1kb-sample-file-3.jpg
+]
+INFO:[4172748544] Parsed:[GetFile][GET][1kb-sample-file-3.jpg
+]
+INFO:[4172748544] Send cmd:[GetFile GET 1kb-sample-file-3.jpg
+] sent bytes:[4096] fd:[11]
+====>[4248282880] Recd file:[10mb-sample-file-1.txt][10485760 bytes][2562 recvs]
+====>[4248282880] Total Requests Done:[12]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59290) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59290
+INFO:[4248282880] Dequed value : [1kb-sample-file-4.png
+]
+INFO:[4248282880] deQ filename:[1kb-sample-file-4.png
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 1kb-sample-file-4.png
+]
+INFO:[4248282880] Parsed:[GetFile][GET][1kb-sample-file-4.png
+]
+INFO:[4248282880] Send cmd:[GetFile GET 1kb-sample-file-4.png
+] sent bytes:[4096] fd:[3]
+====>[4189533952] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][302 recvs]
+====>[4189533952] Total Requests Done:[13]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (8) on port (59291) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59291
+INFO:[4189533952] Dequed value : [10mb-sample-file-2.mpg
+]
+INFO:[4189533952] deQ filename:[10mb-sample-file-2.mpg
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 10mb-sample-file-2.mpg
+]
+INFO:[4189533952] Parsed:[GetFile][GET][10mb-sample-file-2.mpg
+]
+INFO:[4189533952] Send cmd:[GetFile GET 10mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[8]
+INFO:[4214712064] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 10485760]
+INFO:[4214712064] Parsed:[GetFile][OK][10485760]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [10485760]
+====>[4231497472] Recd file:[10mb-sample-file-3.mpg][10193068 bytes][2490 recvs]
+====>[4231497472] Total Requests Done:[14]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+INFO:[4231497472] Opened socket as fd (4) on port (59292) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59292
+INFO:[4231497472] Dequed value : [1mb-sample-file-0.jpg
+]
+INFO:[4231497472] deQ filename:[1mb-sample-file-0.jpg
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1mb-sample-file-0.jpg
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1mb-sample-file-0.jpg
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1mb-sample-file-0.jpg
+] sent bytes:[4096] fd:[4]
+INFO:[4197926656] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 10193068]
+INFO:[4197926656] Parsed:[GetFile][OK][10193068]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [10193068]
+INFO:[4181141248] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 1113483]
+INFO:[4181141248] Parsed:[GetFile][OK][1113483]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [1113483]
+INFO:[4223104768] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1034]
+INFO:[4223104768] Parsed:[GetFile][OK][1034]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1034]
+INFO:[4239890176] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1073]
+INFO:[4239890176] Parsed:[GetFile][OK][1073]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1073]
+INFO:[4172748544] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 1295]
+INFO:[4172748544] Parsed:[GetFile][OK][1295]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [1295]
+INFO:[4248282880] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 1273]
+INFO:[4248282880] Parsed:[GetFile][OK][1273]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [1273]
+INFO:[4189533952] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 10727428]
+INFO:[4189533952] Parsed:[GetFile][OK][10727428]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [10727428]
+INFO:[4231497472] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1006093]
+INFO:[4231497472] Parsed:[GetFile][OK][1006093]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1006093]
+====>[4231497472] Recd file:[1mb-sample-file-0.jpg][1006093 bytes][246 recvs]
+====>[4231497472] Total Requests Done:[15]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+INFO:[4231497472] Opened socket as fd (4) on port (59293) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59293
+INFO:[4231497472] Dequed value : [1mb-sample-file-1.txt
+]
+INFO:[4231497472] deQ filename:[1mb-sample-file-1.txt
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1mb-sample-file-1.txt
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1mb-sample-file-1.txt
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1mb-sample-file-1.txt
+] sent bytes:[4096] fd:[4]
+====>[4223104768] Recd file:[1kb-sample-file-1.html][1034 bytes][1 recvs]
+====>[4223104768] Total Requests Done:[16]
+====>[4181141248] Recd file:[1mb-sample-file-3.mpg][1113483 bytes][272 recvs]
+====>[4181141248] Total Requests Done:[17]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Opened socket as fd (5) on port (59294) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59294
+INFO:[4223104768] Dequed value : [1mb-sample-file-2.mpg
+]
+INFO:[4223104768] deQ filename:[1mb-sample-file-2.mpg
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1mb-sample-file-2.mpg
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1mb-sample-file-2.mpg
+]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Send cmd:[GetFile GET 1mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[5]
+INFO:[4181141248] Opened socket as fd (12) on port (59295) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59295
+INFO:[4181141248] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4181141248] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4181141248] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4181141248] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[12]
+INFO:[4231497472] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1048576]
+INFO:[4231497472] Parsed:[GetFile][OK][1048576]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1048576]
+====>[4172748544] Recd file:[1kb-sample-file-3.jpg][1295 bytes][1 recvs]
+====>[4172748544] Total Requests Done:[18]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Opened socket as fd (11) on port (59296) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59296
+INFO:[4172748544] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4172748544] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4172748544] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4172748544] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[11]
+====>[4248282880] Recd file:[1kb-sample-file-4.png][1273 bytes][1 recvs]
+====>[4248282880] Total Requests Done:[19]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59297) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59297
+INFO:[4248282880] Dequed value : [10mb-sample-file-1.txt
+]
+INFO:[4248282880] deQ filename:[10mb-sample-file-1.txt
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 10mb-sample-file-1.txt
+]
+INFO:[4248282880] Parsed:[GetFile][GET][10mb-sample-file-1.txt
+]
+INFO:[4248282880] Send cmd:[GetFile GET 10mb-sample-file-1.txt
+] sent bytes:[4096] fd:[3]
+====>[4239890176] Recd file:[1kb-sample-file-2.png][1073 bytes][1 recvs]
+====>[4239890176] Total Requests Done:[20]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4239890176] Opened socket as fd (6) on port (59298) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59298
+INFO:[4239890176] Dequed value : [10mb-sample-file-3.mpg
+]
+INFO:[4239890176] deQ filename:[10mb-sample-file-3.mpg
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 10mb-sample-file-3.mpg
+]
+INFO:[4239890176] Parsed:[GetFile][GET][10mb-sample-file-3.mpg
+]
+INFO:[4239890176] Send cmd:[GetFile GET 10mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[6]
+INFO:[4223104768] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1116296]
+INFO:[4223104768] Parsed:[GetFile][OK][1116296]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1116296]
+INFO:[4181141248] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4181141248] Parsed:[GetFile][OK][1236525]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [1236525]
+====>[4181141248] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][304 recvs]
+====>[4181141248] Total Requests Done:[21]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4181141248] Opened socket as fd (12) on port (59299) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59299
+INFO:[4181141248] Dequed value : [1kb-sample-file-0.png
+]
+INFO:[4181141248] deQ filename:[1kb-sample-file-0.png
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 1kb-sample-file-0.png
+]
+INFO:[4181141248] Parsed:[GetFile][GET][1kb-sample-file-0.png
+]
+INFO:[4181141248] Send cmd:[GetFile GET 1kb-sample-file-0.png
+] sent bytes:[4096] fd:[12]
+====>[4231497472] Recd file:[1mb-sample-file-1.txt][1048576 bytes][260 recvs]
+====>[4231497472] Total Requests Done:[22]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+INFO:[4231497472] Opened socket as fd (4) on port (59300) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59300
+INFO:[4231497472] Dequed value : [1mb-sample-file-3.mpg
+]
+INFO:[4231497472] deQ filename:[1mb-sample-file-3.mpg
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1mb-sample-file-3.mpg
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1mb-sample-file-3.mpg
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[4]
+====>[4223104768] Recd file:[1mb-sample-file-2.mpg][1116296 bytes][273 recvs]
+====>[4223104768] Total Requests Done:[23]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4172748544] Parsed:[GetFile][OK][1236525]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [1236525]
+INFO:[4223104768] Opened socket as fd (5) on port (59301) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59301
+INFO:[4223104768] Dequed value : [1kb-sample-file-1.html
+]
+INFO:[4223104768] deQ filename:[1kb-sample-file-1.html
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1kb-sample-file-1.html
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1kb-sample-file-1.html
+]
+INFO:[4223104768] Send cmd:[GetFile GET 1kb-sample-file-1.html
+] sent bytes:[4096] fd:[5]
+====>[4172748544] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][302 recvs]
+====>[4172748544] Total Requests Done:[24]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Opened socket as fd (11) on port (59302) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59302
+INFO:[4172748544] Dequed value : [1kb-sample-file-2.png
+]
+INFO:[4172748544] deQ filename:[1kb-sample-file-2.png
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 1kb-sample-file-2.png
+]
+INFO:[4172748544] Parsed:[GetFile][GET][1kb-sample-file-2.png
+]
+INFO:[4172748544] Send cmd:[GetFile GET 1kb-sample-file-2.png
+] sent bytes:[4096] fd:[11]
+INFO:[4248282880] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 10485760]
+INFO:[4248282880] Parsed:[GetFile][OK][10485760]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [10485760]
+INFO:[4239890176] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 10193068]
+INFO:[4239890176] Parsed:[GetFile][OK][10193068]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [10193068]
+INFO:[4181141248] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 1270]
+INFO:[4181141248] Parsed:[GetFile][OK][1270]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [1270]
+====>[4181141248] Recd file:[1kb-sample-file-0.png][1270 bytes][1 recvs]
+====>[4181141248] Total Requests Done:[25]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4181141248] Opened socket as fd (12) on port (59303) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59303
+INFO:[4181141248] Dequed value : [1kb-sample-file-3.jpg
+]
+INFO:[4181141248] deQ filename:[1kb-sample-file-3.jpg
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 1kb-sample-file-3.jpg
+]
+INFO:[4181141248] Parsed:[GetFile][GET][1kb-sample-file-3.jpg
+]
+INFO:[4181141248] Send cmd:[GetFile GET 1kb-sample-file-3.jpg
+] sent bytes:[4096] fd:[12]
+INFO:[4231497472] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1113483]
+INFO:[4231497472] Parsed:[GetFile][OK][1113483]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1113483]
+INFO:[4223104768] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1034]
+INFO:[4223104768] Parsed:[GetFile][OK][1034]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1034]
+====>[4223104768] Recd file:[1kb-sample-file-1.html][1034 bytes][1 recvs]
+====>[4223104768] Total Requests Done:[26]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Opened socket as fd (5) on port (59304) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59304
+INFO:[4223104768] Dequed value : [1kb-sample-file-4.png
+]
+INFO:[4223104768] deQ filename:[1kb-sample-file-4.png
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1kb-sample-file-4.png
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1kb-sample-file-4.png
+]
+INFO:[4223104768] Send cmd:[GetFile GET 1kb-sample-file-4.png
+] sent bytes:[4096] fd:[5]
+INFO:[4172748544] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 1073]
+INFO:[4172748544] Parsed:[GetFile][OK][1073]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [1073]
+====>[4172748544] Recd file:[1kb-sample-file-2.png][1073 bytes][1 recvs]
+====>[4172748544] Total Requests Done:[27]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Opened socket as fd (11) on port (59305) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59305
+INFO:[4172748544] Dequed value : [10mb-sample-file-2.mpg
+]
+INFO:[4172748544] deQ filename:[10mb-sample-file-2.mpg
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 10mb-sample-file-2.mpg
+]
+INFO:[4172748544] Parsed:[GetFile][GET][10mb-sample-file-2.mpg
+]
+INFO:[4172748544] Send cmd:[GetFile GET 10mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[11]
+INFO:[4181141248] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 1295]
+INFO:[4181141248] Parsed:[GetFile][OK][1295]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [1295]
+====>[4181141248] Recd file:[1kb-sample-file-3.jpg][1295 bytes][1 recvs]
+====>[4181141248] Total Requests Done:[28]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4181141248] Opened socket as fd (12) on port (59306) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59306
+INFO:[4181141248] Dequed value : [1mb-sample-file-0.jpg
+]
+INFO:[4181141248] deQ filename:[1mb-sample-file-0.jpg
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 1mb-sample-file-0.jpg
+]
+INFO:[4181141248] Parsed:[GetFile][GET][1mb-sample-file-0.jpg
+]
+INFO:[4181141248] Send cmd:[GetFile GET 1mb-sample-file-0.jpg
+] sent bytes:[4096] fd:[12]
+====>[4239890176] Recd file:[10mb-sample-file-3.mpg][10193068 bytes][2506 recvs]
+====>[4239890176] Total Requests Done:[29]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4239890176] Opened socket as fd (6) on port (59307) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59307
+INFO:[4239890176] Dequed value : [1mb-sample-file-1.txt
+]
+INFO:[4239890176] deQ filename:[1mb-sample-file-1.txt
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1mb-sample-file-1.txt
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1mb-sample-file-1.txt
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1mb-sample-file-1.txt
+] sent bytes:[4096] fd:[6]
+INFO:[4223104768] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1273]
+INFO:[4223104768] Parsed:[GetFile][OK][1273]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1273]
+====>[4223104768] Recd file:[1kb-sample-file-4.png][1273 bytes][1 recvs]
+====>[4223104768] Total Requests Done:[30]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Opened socket as fd (5) on port (59308) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59308
+INFO:[4223104768] Dequed value : [1mb-sample-file-2.mpg
+]
+INFO:[4223104768] deQ filename:[1mb-sample-file-2.mpg
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1mb-sample-file-2.mpg
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1mb-sample-file-2.mpg
+]
+INFO:[4223104768] Send cmd:[GetFile GET 1mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[5]
+INFO:[4172748544] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 10727428]
+INFO:[4172748544] Parsed:[GetFile][OK][10727428]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [10727428]
+====>[4231497472] Recd file:[1mb-sample-file-3.mpg][1113483 bytes][285 recvs]
+====>[4231497472] Total Requests Done:[31]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+INFO:[4231497472] Opened socket as fd (4) on port (59309) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59309
+INFO:[4231497472] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4231497472] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[4]
+INFO:[4181141248] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 1006093]
+INFO:[4181141248] Parsed:[GetFile][OK][1006093]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [1006093]
+INFO:[4239890176] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1048576]
+INFO:[4239890176] Parsed:[GetFile][OK][1048576]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1048576]
+====>[4239890176] Recd file:[1mb-sample-file-1.txt][1048576 bytes][257 recvs]
+====>[4239890176] Total Requests Done:[32]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4239890176] Opened socket as fd (6) on port (59310) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59310
+INFO:[4239890176] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4239890176] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[6]
+====>[4181141248] Recd file:[1mb-sample-file-0.jpg][1006093 bytes][258 recvs]
+====>[4181141248] Total Requests Done:[33]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4181141248] Opened socket as fd (12) on port (59311) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59311
+INFO:[4181141248] Dequed value : [10mb-sample-file-1.txt
+]
+INFO:[4181141248] deQ filename:[10mb-sample-file-1.txt
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 10mb-sample-file-1.txt
+]
+INFO:[4181141248] Parsed:[GetFile][GET][10mb-sample-file-1.txt
+]
+INFO:[4181141248] Send cmd:[GetFile GET 10mb-sample-file-1.txt
+] sent bytes:[4096] fd:[12]
+INFO:[4223104768] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1116296]
+INFO:[4223104768] Parsed:[GetFile][OK][1116296]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1116296]
+====>[4223104768] Recd file:[1mb-sample-file-2.mpg][1116296 bytes][273 recvs]
+====>[4223104768] Total Requests Done:[34]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Opened socket as fd (5) on port (59312) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59312
+INFO:[4223104768] Dequed value : [10mb-sample-file-3.mpg
+]
+INFO:[4223104768] deQ filename:[10mb-sample-file-3.mpg
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 10mb-sample-file-3.mpg
+]
+INFO:[4223104768] Parsed:[GetFile][GET][10mb-sample-file-3.mpg
+]
+INFO:[4223104768] Send cmd:[GetFile GET 10mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[5]
+====>[4197926656] Recd file:[10mb-sample-file-3.mpg][10193068 bytes][2490 recvs]
+====>[4197926656] Total Requests Done:[35]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (9) on port (59313) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59313
+INFO:[4197926656] Dequed value : [1kb-sample-file-0.png
+]
+INFO:[4197926656] deQ filename:[1kb-sample-file-0.png
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1kb-sample-file-0.png
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1kb-sample-file-0.png
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1kb-sample-file-0.png
+] sent bytes:[4096] fd:[9]
+INFO:[4231497472] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4231497472] Parsed:[GetFile][OK][1236525]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1236525]
+INFO:[4239890176] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4239890176] Parsed:[GetFile][OK][1236525]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1236525]
+INFO:[4181141248] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 10485760]
+INFO:[4181141248] Parsed:[GetFile][OK][10485760]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [10485760]
+====>[4239890176] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][313 recvs]
+====>[4239890176] Total Requests Done:[36]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4239890176] Opened socket as fd (6) on port (59314) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59314
+INFO:[4239890176] Dequed value : [1mb-sample-file-3.mpg
+]
+INFO:[4239890176] deQ filename:[1mb-sample-file-3.mpg
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1mb-sample-file-3.mpg
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1mb-sample-file-3.mpg
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[6]
+INFO:[4223104768] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 10193068]
+INFO:[4223104768] Parsed:[GetFile][OK][10193068]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [10193068]
+====>[4231497472] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][302 recvs]
+====>[4231497472] Total Requests Done:[37]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+====>[4214712064] Recd file:[10mb-sample-file-1.txt][10485760 bytes][2563 recvs]
+INFO:[4231497472] Opened socket as fd (4) on port (59315) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59315
+INFO:[4231497472] Dequed value : [1kb-sample-file-1.html
+]
+INFO:[4231497472] deQ filename:[1kb-sample-file-1.html
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1kb-sample-file-1.html
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1kb-sample-file-1.html
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1kb-sample-file-1.html
+] sent bytes:[4096] fd:[4]
+====>[4214712064] Total Requests Done:[38]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (7) on port (59316) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59316
+INFO:[4214712064] Dequed value : [1kb-sample-file-2.png
+]
+INFO:[4214712064] deQ filename:[1kb-sample-file-2.png
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 1kb-sample-file-2.png
+]
+INFO:[4214712064] Parsed:[GetFile][GET][1kb-sample-file-2.png
+]
+INFO:[4214712064] Send cmd:[GetFile GET 1kb-sample-file-2.png
+] sent bytes:[4096] fd:[7]
+====>[4189533952] Recd file:[10mb-sample-file-2.mpg][10727428 bytes][2622 recvs]
+====>[4189533952] Total Requests Done:[39]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (8) on port (59317) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59317
+INFO:[4189533952] Dequed value : [1kb-sample-file-3.jpg
+]
+INFO:[4189533952] deQ filename:[1kb-sample-file-3.jpg
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 1kb-sample-file-3.jpg
+]
+INFO:[4189533952] Parsed:[GetFile][GET][1kb-sample-file-3.jpg
+]
+INFO:[4189533952] Send cmd:[GetFile GET 1kb-sample-file-3.jpg
+] sent bytes:[4096] fd:[8]
+INFO:[4197926656] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1270]
+INFO:[4197926656] Parsed:[GetFile][OK][1270]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1270]
+====>[4197926656] Recd file:[1kb-sample-file-0.png][1270 bytes][1 recvs]
+====>[4197926656] Total Requests Done:[40]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (9) on port (59318) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59318
+INFO:[4197926656] Dequed value : [1kb-sample-file-4.png
+]
+INFO:[4197926656] deQ filename:[1kb-sample-file-4.png
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1kb-sample-file-4.png
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1kb-sample-file-4.png
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1kb-sample-file-4.png
+] sent bytes:[4096] fd:[9]
+INFO:[4206319360] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 1270]
+INFO:[4206319360] Parsed:[GetFile][OK][1270]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [1270]
+====>[4206319360] Recd file:[1kb-sample-file-0.png][1270 bytes][1 recvs]
+====>[4206319360] Total Requests Done:[41]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (10) on port (59319) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59319
+INFO:[4206319360] Dequed value : [10mb-sample-file-2.mpg
+]
+INFO:[4206319360] deQ filename:[10mb-sample-file-2.mpg
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 10mb-sample-file-2.mpg
+]
+INFO:[4206319360] Parsed:[GetFile][GET][10mb-sample-file-2.mpg
+]
+INFO:[4206319360] Send cmd:[GetFile GET 10mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[10]
+====>[4223104768] Recd file:[10mb-sample-file-3.mpg][10193068 bytes][2491 recvs]
+====>[4223104768] Total Requests Done:[42]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Opened socket as fd (5) on port (59320) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59320
+INFO:[4223104768] Dequed value : [1mb-sample-file-0.jpg
+]
+INFO:[4223104768] deQ filename:[1mb-sample-file-0.jpg
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1mb-sample-file-0.jpg
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1mb-sample-file-0.jpg
+]
+INFO:[4223104768] Send cmd:[GetFile GET 1mb-sample-file-0.jpg
+] sent bytes:[4096] fd:[5]
+INFO:[4239890176] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1113483]
+INFO:[4239890176] Parsed:[GetFile][OK][1113483]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1113483]
+====>[4239890176] Recd file:[1mb-sample-file-3.mpg][1113483 bytes][286 recvs]
+====>[4239890176] Total Requests Done:[43]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4239890176] Opened socket as fd (6) on port (59321) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59321
+INFO:[4239890176] Dequed value : [1mb-sample-file-1.txt
+]
+INFO:[4239890176] deQ filename:[1mb-sample-file-1.txt
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1mb-sample-file-1.txt
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1mb-sample-file-1.txt
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1mb-sample-file-1.txt
+] sent bytes:[4096] fd:[6]
+====>[4181141248] Recd file:[10mb-sample-file-1.txt][10485760 bytes][2566 recvs]
+====>[4181141248] Total Requests Done:[44]
+INFO:[4181141248] Init socket
+INFO:[4181141248] Server Name: 0.0.0.0
+INFO:[4181141248] Connecting to [0.0.0.0] on port [8888]
+INFO:[4181141248] Opened socket as fd (12) on port (59322) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59322
+INFO:[4181141248] Dequed value : [1mb-sample-file-2.mpg
+]
+INFO:[4181141248] deQ filename:[1mb-sample-file-2.mpg
+]
+INFO:[4181141248] Parsing REQUEST[GetFile GET 1mb-sample-file-2.mpg
+]
+INFO:[4181141248] Parsed:[GetFile][GET][1mb-sample-file-2.mpg
+]
+INFO:[4181141248] Send cmd:[GetFile GET 1mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[12]
+====>[4248282880] Recd file:[10mb-sample-file-1.txt][10485760 bytes][2665 recvs]
+====>[4248282880] Total Requests Done:[45]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59323) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59323
+INFO:[4248282880] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4248282880] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4248282880] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4248282880] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[3]
+INFO:[4231497472] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1034]
+INFO:[4231497472] Parsed:[GetFile][OK][1034]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1034]
+====>[4231497472] Recd file:[1kb-sample-file-1.html][1034 bytes][1 recvs]
+====>[4231497472] Total Requests Done:[46]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+INFO:[4231497472] Opened socket as fd (4) on port (59324) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59324
+INFO:[4231497472] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4231497472] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[4]
+INFO:[4214712064] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 1073]
+INFO:[4214712064] Parsed:[GetFile][OK][1073]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [1073]
+====>[4214712064] Recd file:[1kb-sample-file-2.png][1073 bytes][1 recvs]
+====>[4214712064] Total Requests Done:[47]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (7) on port (59325) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59325
+INFO:[4214712064] Dequed value : [10mb-sample-file-1.txt
+]
+INFO:[4214712064] deQ filename:[10mb-sample-file-1.txt
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 10mb-sample-file-1.txt
+]
+INFO:[4214712064] Parsed:[GetFile][GET][10mb-sample-file-1.txt
+]
+INFO:[4214712064] Send cmd:[GetFile GET 10mb-sample-file-1.txt
+] sent bytes:[4096] fd:[7]
+====>[4172748544] Recd file:[10mb-sample-file-2.mpg][10727428 bytes][2681 recvs]
+====>[4172748544] Total Requests Done:[48]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Opened socket as fd (11) on port (59326) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59326
+INFO:[4172748544] Dequed value : [10mb-sample-file-3.mpg
+]
+INFO:[4172748544] deQ filename:[10mb-sample-file-3.mpg
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 10mb-sample-file-3.mpg
+]
+INFO:[4172748544] Parsed:[GetFile][GET][10mb-sample-file-3.mpg
+]
+INFO:[4172748544] Send cmd:[GetFile GET 10mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[11]
+INFO:[4189533952] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 1295]
+INFO:[4189533952] Parsed:[GetFile][OK][1295]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [1295]
+====>[4189533952] Recd file:[1kb-sample-file-3.jpg][1295 bytes][1 recvs]
+====>[4189533952] Total Requests Done:[49]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (8) on port (59327) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59327
+INFO:[4189533952] Dequed value : [1kb-sample-file-0.png
+]
+INFO:[4189533952] deQ filename:[1kb-sample-file-0.png
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 1kb-sample-file-0.png
+]
+INFO:[4189533952] Parsed:[GetFile][GET][1kb-sample-file-0.png
+]
+INFO:[4189533952] Send cmd:[GetFile GET 1kb-sample-file-0.png
+] sent bytes:[4096] fd:[8]
+INFO:[4197926656] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1273]
+INFO:[4197926656] Parsed:[GetFile][OK][1273]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1273]
+====>[4197926656] Recd file:[1kb-sample-file-4.png][1273 bytes][1 recvs]
+====>[4197926656] Total Requests Done:[50]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (9) on port (59328) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59328
+INFO:[4197926656] Dequed value : [1mb-sample-file-3.mpg
+]
+INFO:[4197926656] deQ filename:[1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[9]
+INFO:[4206319360] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 10727428]
+INFO:[4206319360] Parsed:[GetFile][OK][10727428]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [10727428]
+INFO:[4223104768] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1006093]
+INFO:[4223104768] Parsed:[GetFile][OK][1006093]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1006093]
+====>[4223104768] Recd file:[1mb-sample-file-0.jpg][1006093 bytes][259 recvs]
+====>[4223104768] Total Requests Done:[51]
+INFO:[4223104768] Init socket
+INFO:[4223104768] Server Name: 0.0.0.0
+INFO:[4223104768] Connecting to [0.0.0.0] on port [8888]
+INFO:[4223104768] Opened socket as fd (5) on port (59329) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59329
+INFO:[4223104768] Dequed value : [1kb-sample-file-1.html
+]
+INFO:[4223104768] deQ filename:[1kb-sample-file-1.html
+]
+INFO:[4223104768] Parsing REQUEST[GetFile GET 1kb-sample-file-1.html
+]
+INFO:[4223104768] Parsed:[GetFile][GET][1kb-sample-file-1.html
+]
+INFO:[4223104768] Send cmd:[GetFile GET 1kb-sample-file-1.html
+] sent bytes:[4096] fd:[5]
+INFO:[4181141248] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4181141248] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4181141248] Parsing RESPONSE[GetFile OK 1116296]
+INFO:[4181141248] Parsed:[GetFile][OK][1116296]
+INFO:[4181141248] Streaming file only - no write
+INFO:[4181141248] Filesize is [1116296]
+INFO:[4248282880] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4248282880] Parsed:[GetFile][OK][1236525]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [1236525]
+INFO:[4231497472] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4231497472] Parsed:[GetFile][OK][1236525]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1236525]
+INFO:[4214712064] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 10485760]
+INFO:[4214712064] Parsed:[GetFile][OK][10485760]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [10485760]
+INFO:[4172748544] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 10193068]
+INFO:[4172748544] Parsed:[GetFile][OK][10193068]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [10193068]
+INFO:[4189533952] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 1270]
+INFO:[4189533952] Parsed:[GetFile][OK][1270]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [1270]
+INFO:[4197926656] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1113483]
+INFO:[4197926656] Parsed:[GetFile][OK][1113483]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1113483]
+INFO:[4223104768] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4223104768] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4223104768] Parsing RESPONSE[GetFile OK 1034]
+INFO:[4223104768] Parsed:[GetFile][OK][1034]
+INFO:[4223104768] Streaming file only - no write
+INFO:[4223104768] Filesize is [1034]
+====>[4223104768] Recd file:[1kb-sample-file-1.html][1034 bytes][1 recvs]
+====>[4223104768] Total Requests Done:[52]
+====>[4197926656] Recd file:[1mb-sample-file-3.mpg][1113483 bytes][275 recvs]
+====>[4197926656] Total Requests Done:[53]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (5) on port (59330) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59330
+INFO:[4197926656] Dequed value : [1kb-sample-file-2.png
+]
+INFO:[4197926656] deQ filename:[1kb-sample-file-2.png
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1kb-sample-file-2.png
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1kb-sample-file-2.png
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1kb-sample-file-2.png
+] sent bytes:[4096] fd:[5]
+INFO:[4239890176] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1048576]
+INFO:[4239890176] Parsed:[GetFile][OK][1048576]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1048576]
+INFO:[4197926656] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1073]
+INFO:[4197926656] Parsed:[GetFile][OK][1073]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1073]
+====>[4197926656] Recd file:[1kb-sample-file-2.png][1073 bytes][1 recvs]
+====>[4197926656] Total Requests Done:[54]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (5) on port (59331) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59331
+INFO:[4197926656] Dequed value : [1kb-sample-file-3.jpg
+]
+INFO:[4197926656] deQ filename:[1kb-sample-file-3.jpg
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1kb-sample-file-3.jpg
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1kb-sample-file-3.jpg
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1kb-sample-file-3.jpg
+] sent bytes:[4096] fd:[5]
+====>[4181141248] Recd file:[1mb-sample-file-2.mpg][1116296 bytes][273 recvs]
+====>[4181141248] Total Requests Done:[55]
+====>[4231497472] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][302 recvs]
+====>[4231497472] Total Requests Done:[56]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+====>[4248282880] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][303 recvs]
+INFO:[4231497472] Opened socket as fd (4) on port (59332) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59332
+INFO:[4231497472] Dequed value : [1kb-sample-file-4.png
+]
+INFO:[4231497472] deQ filename:[1kb-sample-file-4.png
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1kb-sample-file-4.png
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1kb-sample-file-4.png
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1kb-sample-file-4.png
+] sent bytes:[4096] fd:[4]
+====>[4248282880] Total Requests Done:[57]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59333) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59333
+INFO:[4248282880] Dequed value : [10mb-sample-file-2.mpg
+]
+INFO:[4248282880] deQ filename:[10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Parsed:[GetFile][GET][10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Send cmd:[GetFile GET 10mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[3]
+====>[4189533952] Recd file:[1kb-sample-file-0.png][1270 bytes][1 recvs]
+====>[4189533952] Total Requests Done:[58]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (8) on port (59334) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59334
+INFO:[4189533952] Dequed value : [1mb-sample-file-0.jpg
+]
+INFO:[4189533952] deQ filename:[1mb-sample-file-0.jpg
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 1mb-sample-file-0.jpg
+]
+INFO:[4189533952] Parsed:[GetFile][GET][1mb-sample-file-0.jpg
+]
+INFO:[4189533952] Send cmd:[GetFile GET 1mb-sample-file-0.jpg
+] sent bytes:[4096] fd:[8]
+INFO:[4231497472] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1273]
+INFO:[4231497472] Parsed:[GetFile][OK][1273]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1273]
+INFO:[4248282880] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 10727428]
+INFO:[4248282880] Parsed:[GetFile][OK][10727428]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [10727428]
+====>[4239890176] Recd file:[1mb-sample-file-1.txt][1048576 bytes][268 recvs]
+====>[4239890176] Total Requests Done:[59]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 1006093]
+INFO:[4189533952] Parsed:[GetFile][OK][1006093]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [1006093]
+INFO:[4239890176] Opened socket as fd (6) on port (59335) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59335
+INFO:[4239890176] Dequed value : [1mb-sample-file-1.txt
+]
+INFO:[4239890176] deQ filename:[1mb-sample-file-1.txt
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1mb-sample-file-1.txt
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1mb-sample-file-1.txt
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1mb-sample-file-1.txt
+] sent bytes:[4096] fd:[6]
+====>[4214712064] Recd file:[10mb-sample-file-1.txt][10485760 bytes][2561 recvs]
+====>[4214712064] Total Requests Done:[60]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (7) on port (59336) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59336
+INFO:[4214712064] Dequed value : [1mb-sample-file-2.mpg
+]
+INFO:[4214712064] deQ filename:[1mb-sample-file-2.mpg
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 1mb-sample-file-2.mpg
+]
+INFO:[4214712064] Parsed:[GetFile][GET][1mb-sample-file-2.mpg
+]
+INFO:[4214712064] Send cmd:[GetFile GET 1mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[7]
+INFO:[4239890176] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1048576]
+INFO:[4239890176] Parsed:[GetFile][OK][1048576]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1048576]
+====>[4239890176] Recd file:[1mb-sample-file-1.txt][1048576 bytes][256 recvs]
+====>[4239890176] Total Requests Done:[61]
+INFO:[4239890176] Init socket
+INFO:[4239890176] Server Name: 0.0.0.0
+INFO:[4239890176] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1295]
+INFO:[4197926656] Parsed:[GetFile][OK][1295]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1295]
+INFO:[4239890176] Opened socket as fd (6) on port (59337) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59337
+INFO:[4239890176] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4239890176] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4239890176] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[6]
+INFO:[4214712064] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 1116296]
+INFO:[4214712064] Parsed:[GetFile][OK][1116296]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [1116296]
+====>[4214712064] Recd file:[1mb-sample-file-2.mpg][1116296 bytes][273 recvs]
+====>[4214712064] Total Requests Done:[62]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (7) on port (59338) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59338
+INFO:[4214712064] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4214712064] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4214712064] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4214712064] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[7]
+INFO:[4239890176] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4239890176] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4239890176] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4239890176] Parsed:[GetFile][OK][1236525]
+INFO:[4239890176] Streaming file only - no write
+INFO:[4239890176] Filesize is [1236525]
+INFO:[4214712064] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4214712064] Parsed:[GetFile][OK][1236525]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [1236525]
+====>[4214712064] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][302 recvs]
+====>[4214712064] Total Requests Done:[63]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (7) on port (59339) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59339
+INFO:[4214712064] Dequed value : [10mb-sample-file-1.txt
+]
+INFO:[4214712064] deQ filename:[10mb-sample-file-1.txt
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 10mb-sample-file-1.txt
+]
+INFO:[4214712064] Parsed:[GetFile][GET][10mb-sample-file-1.txt
+]
+INFO:[4214712064] Send cmd:[GetFile GET 10mb-sample-file-1.txt
+] sent bytes:[4096] fd:[7]
+INFO:[4214712064] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 10485760]
+INFO:[4214712064] Parsed:[GetFile][OK][10485760]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [10485760]
+====>[4239890176] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][317 recvs]
+====>[4239890176] Total Requests Done:[64]
+====>[4189533952] Recd file:[1mb-sample-file-0.jpg][1006093 bytes][246 recvs]
+====>[4189533952] Total Requests Done:[65]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+====>[4231497472] Recd file:[1kb-sample-file-4.png][1273 bytes][1 recvs]
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (6) on port (59340) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59340
+INFO:[4189533952] Dequed value : [10mb-sample-file-3.mpg
+]
+INFO:[4189533952] deQ filename:[10mb-sample-file-3.mpg
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 10mb-sample-file-3.mpg
+]
+INFO:[4189533952] Parsed:[GetFile][GET][10mb-sample-file-3.mpg
+]
+INFO:[4189533952] Send cmd:[GetFile GET 10mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[6]
+====>[4231497472] Total Requests Done:[66]
+====>[4197926656] Recd file:[1kb-sample-file-3.jpg][1295 bytes][1 recvs]
+====>[4197926656] Total Requests Done:[67]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+INFO:[4231497472] Opened socket as fd (4) on port (59341) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59341
+INFO:[4231497472] Dequed value : [1kb-sample-file-0.png
+]
+INFO:[4231497472] deQ filename:[1kb-sample-file-0.png
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1kb-sample-file-0.png
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1kb-sample-file-0.png
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1kb-sample-file-0.png
+] sent bytes:[4096] fd:[4]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (5) on port (59342) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59342
+INFO:[4197926656] Dequed value : [1mb-sample-file-3.mpg
+]
+INFO:[4197926656] deQ filename:[1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[5]
+INFO:[4189533952] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 10193068]
+INFO:[4189533952] Parsed:[GetFile][OK][10193068]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [10193068]
+INFO:[4231497472] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1270]
+INFO:[4231497472] Parsed:[GetFile][OK][1270]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1270]
+====>[4231497472] Recd file:[1kb-sample-file-0.png][1270 bytes][1 recvs]
+====>[4231497472] Total Requests Done:[68]
+INFO:[4231497472] Init socket
+INFO:[4231497472] Server Name: 0.0.0.0
+INFO:[4231497472] Connecting to [0.0.0.0] on port [8888]
+INFO:[4231497472] Opened socket as fd (4) on port (59343) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59343
+INFO:[4231497472] Dequed value : [1kb-sample-file-1.html
+]
+INFO:[4231497472] deQ filename:[1kb-sample-file-1.html
+]
+INFO:[4231497472] Parsing REQUEST[GetFile GET 1kb-sample-file-1.html
+]
+INFO:[4231497472] Parsed:[GetFile][GET][1kb-sample-file-1.html
+]
+INFO:[4231497472] Send cmd:[GetFile GET 1kb-sample-file-1.html
+] sent bytes:[4096] fd:[4]
+====>[4172748544] Recd file:[10mb-sample-file-3.mpg][10193068 bytes][2561 recvs]
+====>[4172748544] Total Requests Done:[69]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Opened socket as fd (8) on port (59344) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59344
+INFO:[4172748544] Dequed value : [1kb-sample-file-2.png
+]
+INFO:[4172748544] deQ filename:[1kb-sample-file-2.png
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 1kb-sample-file-2.png
+]
+INFO:[4172748544] Parsed:[GetFile][GET][1kb-sample-file-2.png
+]
+INFO:[4172748544] Send cmd:[GetFile GET 1kb-sample-file-2.png
+] sent bytes:[4096] fd:[8]
+====>[4206319360] Recd file:[10mb-sample-file-2.mpg][10727428 bytes][2639 recvs]
+====>[4206319360] Total Requests Done:[70]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (9) on port (59345) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59345
+INFO:[4206319360] Dequed value : [1kb-sample-file-3.jpg
+]
+INFO:[4206319360] deQ filename:[1kb-sample-file-3.jpg
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 1kb-sample-file-3.jpg
+]
+INFO:[4206319360] Parsed:[GetFile][GET][1kb-sample-file-3.jpg
+]
+INFO:[4206319360] Send cmd:[GetFile GET 1kb-sample-file-3.jpg
+] sent bytes:[4096] fd:[9]
+====>[4189533952] Recd file:[10mb-sample-file-3.mpg][10193068 bytes][2548 recvs]
+====>[4189533952] Total Requests Done:[71]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (6) on port (59346) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59346
+INFO:[4189533952] Dequed value : [1kb-sample-file-4.png
+]
+INFO:[4189533952] deQ filename:[1kb-sample-file-4.png
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 1kb-sample-file-4.png
+]
+INFO:[4189533952] Parsed:[GetFile][GET][1kb-sample-file-4.png
+]
+INFO:[4189533952] Send cmd:[GetFile GET 1kb-sample-file-4.png
+] sent bytes:[4096] fd:[6]
+====>[4248282880] Recd file:[10mb-sample-file-2.mpg][10727428 bytes][2764 recvs]
+====>[4248282880] Total Requests Done:[72]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59347) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59347
+INFO:[4248282880] Dequed value : [10mb-sample-file-2.mpg
+]
+INFO:[4248282880] deQ filename:[10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Parsed:[GetFile][GET][10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Send cmd:[GetFile GET 10mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[3]
+INFO:[4231497472] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4231497472] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4231497472] Parsing RESPONSE[GetFile OK 1034]
+INFO:[4231497472] Parsed:[GetFile][OK][1034]
+INFO:[4231497472] Streaming file only - no write
+INFO:[4231497472] Filesize is [1034]
+INFO:[4197926656] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1113483]
+INFO:[4197926656] Parsed:[GetFile][OK][1113483]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1113483]
+INFO:[4172748544] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 1073]
+INFO:[4172748544] Parsed:[GetFile][OK][1073]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [1073]
+INFO:[4206319360] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 1295]
+INFO:[4206319360] Parsed:[GetFile][OK][1295]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [1295]
+INFO:[4189533952] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 1273]
+INFO:[4189533952] Parsed:[GetFile][OK][1273]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [1273]
+INFO:[4248282880] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 10727428]
+INFO:[4248282880] Parsed:[GetFile][OK][10727428]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [10727428]
+====>[4189533952] Recd file:[1kb-sample-file-4.png][1273 bytes][1 recvs]
+====>[4189533952] Total Requests Done:[73]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (6) on port (59348) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59348
+INFO:[4189533952] Dequed value : [1mb-sample-file-0.jpg
+]
+INFO:[4189533952] deQ filename:[1mb-sample-file-0.jpg
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 1mb-sample-file-0.jpg
+]
+INFO:[4189533952] Parsed:[GetFile][GET][1mb-sample-file-0.jpg
+]
+INFO:[4189533952] Send cmd:[GetFile GET 1mb-sample-file-0.jpg
+] sent bytes:[4096] fd:[6]
+====>[4206319360] Recd file:[1kb-sample-file-3.jpg][1295 bytes][1 recvs]
+====>[4206319360] Total Requests Done:[74]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (9) on port (59349) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59349
+INFO:[4206319360] Dequed value : [1mb-sample-file-1.txt
+]
+INFO:[4206319360] deQ filename:[1mb-sample-file-1.txt
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 1mb-sample-file-1.txt
+]
+INFO:[4206319360] Parsed:[GetFile][GET][1mb-sample-file-1.txt
+]
+INFO:[4206319360] Send cmd:[GetFile GET 1mb-sample-file-1.txt
+] sent bytes:[4096] fd:[9]
+====>[4172748544] Recd file:[1kb-sample-file-2.png][1073 bytes][1 recvs]
+====>[4172748544] Total Requests Done:[75]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Opened socket as fd (8) on port (59350) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59350
+INFO:[4172748544] Dequed value : [1mb-sample-file-2.mpg
+]
+INFO:[4172748544] deQ filename:[1mb-sample-file-2.mpg
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 1mb-sample-file-2.mpg
+]
+INFO:[4172748544] Parsed:[GetFile][GET][1mb-sample-file-2.mpg
+]
+INFO:[4172748544] Send cmd:[GetFile GET 1mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[8]
+====>[4231497472] Recd file:[1kb-sample-file-1.html][1034 bytes][1 recvs]
+====>[4231497472] Total Requests Done:[76]
+====>[4197926656] Recd file:[1mb-sample-file-3.mpg][1113483 bytes][272 recvs]
+====>[4197926656] Total Requests Done:[77]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (4) on port (59351) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59351
+INFO:[4197926656] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4197926656] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[4]
+INFO:[4189533952] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 1006093]
+INFO:[4189533952] Parsed:[GetFile][OK][1006093]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [1006093]
+====>[4189533952] Recd file:[1mb-sample-file-0.jpg][1006093 bytes][259 recvs]
+====>[4189533952] Total Requests Done:[78]
+INFO:[4189533952] Init socket
+INFO:[4189533952] Server Name: 0.0.0.0
+INFO:[4189533952] Connecting to [0.0.0.0] on port [8888]
+INFO:[4189533952] Opened socket as fd (5) on port (59352) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59352
+INFO:[4189533952] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4189533952] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4189533952] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4189533952] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4189533952] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[5]
+INFO:[4206319360] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 1048576]
+INFO:[4206319360] Parsed:[GetFile][OK][1048576]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [1048576]
+====>[4206319360] Recd file:[1mb-sample-file-1.txt][1048576 bytes][268 recvs]
+====>[4206319360] Total Requests Done:[79]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (6) on port (59353) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59353
+INFO:[4206319360] Dequed value : [10mb-sample-file-1.txt
+]
+INFO:[4206319360] deQ filename:[10mb-sample-file-1.txt
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 10mb-sample-file-1.txt
+]
+INFO:[4206319360] Parsed:[GetFile][GET][10mb-sample-file-1.txt
+]
+INFO:[4206319360] Send cmd:[GetFile GET 10mb-sample-file-1.txt
+] sent bytes:[4096] fd:[6]
+INFO:[4172748544] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 1116296]
+INFO:[4172748544] Parsed:[GetFile][OK][1116296]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [1116296]
+INFO:[4189533952] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4189533952] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4189533952] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4189533952] Parsed:[GetFile][OK][1236525]
+INFO:[4189533952] Streaming file only - no write
+INFO:[4189533952] Filesize is [1236525]
+INFO:[4206319360] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 10485760] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 10485760]
+INFO:[4206319360] Parsed:[GetFile][OK][10485760]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [10485760]
+====>[4189533952] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][317 recvs]
+====>[4189533952] Total Requests Done:[80]
+====>[4214712064] Recd file:[10mb-sample-file-1.txt][10485760 bytes][2595 recvs]
+====>[4214712064] Total Requests Done:[81]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (5) on port (59354) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59354
+INFO:[4214712064] Dequed value : [10mb-sample-file-3.mpg
+]
+INFO:[4214712064] deQ filename:[10mb-sample-file-3.mpg
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 10mb-sample-file-3.mpg
+]
+INFO:[4214712064] Parsed:[GetFile][GET][10mb-sample-file-3.mpg
+]
+INFO:[4214712064] Send cmd:[GetFile GET 10mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[5]
+INFO:[4214712064] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 10193068] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 10193068]
+INFO:[4214712064] Parsed:[GetFile][OK][10193068]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [10193068]
+INFO:[4197926656] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4197926656] Parsed:[GetFile][OK][1236525]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1236525]
+====>[4172748544] Recd file:[1mb-sample-file-2.mpg][1116296 bytes][286 recvs]
+====>[4172748544] Total Requests Done:[82]
+INFO:[4172748544] Init socket
+INFO:[4172748544] Server Name: 0.0.0.0
+INFO:[4172748544] Connecting to [0.0.0.0] on port [8888]
+INFO:[4172748544] Opened socket as fd (7) on port (59355) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59355
+INFO:[4172748544] Dequed value : [1kb-sample-file-0.png
+]
+INFO:[4172748544] deQ filename:[1kb-sample-file-0.png
+]
+INFO:[4172748544] Parsing REQUEST[GetFile GET 1kb-sample-file-0.png
+]
+INFO:[4172748544] Parsed:[GetFile][GET][1kb-sample-file-0.png
+]
+INFO:[4172748544] Send cmd:[GetFile GET 1kb-sample-file-0.png
+] sent bytes:[4096] fd:[7]
+INFO:[4172748544] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4172748544] Recd response:[GetFile OK 1270] recv bytes:[4096]
+INFO:[4172748544] Parsing RESPONSE[GetFile OK 1270]
+INFO:[4172748544] Parsed:[GetFile][OK][1270]
+INFO:[4172748544] Streaming file only - no write
+INFO:[4172748544] Filesize is [1270]
+====>[4172748544] Recd file:[1kb-sample-file-0.png][1270 bytes][1 recvs]
+====>[4172748544] Total Requests Done:[83]
+====>[4197926656] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][318 recvs]
+====>[4197926656] Total Requests Done:[84]
+INFO:[4197926656] Init socket
+INFO:[4197926656] Server Name: 0.0.0.0
+INFO:[4197926656] Connecting to [0.0.0.0] on port [8888]
+INFO:[4197926656] Opened socket as fd (4) on port (59356) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59356
+INFO:[4197926656] Dequed value : [1mb-sample-file-3.mpg
+]
+INFO:[4197926656] deQ filename:[1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Parsing REQUEST[GetFile GET 1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Parsed:[GetFile][GET][1mb-sample-file-3.mpg
+]
+INFO:[4197926656] Send cmd:[GetFile GET 1mb-sample-file-3.mpg
+] sent bytes:[4096] fd:[4]
+INFO:[4197926656] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4197926656] Recd response:[GetFile OK 1113483] recv bytes:[4096]
+INFO:[4197926656] Parsing RESPONSE[GetFile OK 1113483]
+INFO:[4197926656] Parsed:[GetFile][OK][1113483]
+INFO:[4197926656] Streaming file only - no write
+INFO:[4197926656] Filesize is [1113483]
+====>[4197926656] Recd file:[1mb-sample-file-3.mpg][1113483 bytes][286 recvs]
+====>[4197926656] Total Requests Done:[85]
+====>[4214712064] Recd file:[10mb-sample-file-3.mpg][10193068 bytes][2625 recvs]
+====>[4214712064] Total Requests Done:[86]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (4) on port (59357) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59357
+INFO:[4214712064] Dequed value : [1kb-sample-file-1.html
+]
+INFO:[4214712064] deQ filename:[1kb-sample-file-1.html
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 1kb-sample-file-1.html
+]
+INFO:[4214712064] Parsed:[GetFile][GET][1kb-sample-file-1.html
+]
+INFO:[4214712064] Send cmd:[GetFile GET 1kb-sample-file-1.html
+] sent bytes:[4096] fd:[4]
+INFO:[4214712064] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 1034] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 1034]
+INFO:[4214712064] Parsed:[GetFile][OK][1034]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [1034]
+====>[4248282880] Recd file:[10mb-sample-file-2.mpg][10727428 bytes][2764 recvs]
+====>[4248282880] Total Requests Done:[87]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59358) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59358
+INFO:[4248282880] Dequed value : [1kb-sample-file-2.png
+]
+INFO:[4248282880] deQ filename:[1kb-sample-file-2.png
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 1kb-sample-file-2.png
+]
+INFO:[4248282880] Parsed:[GetFile][GET][1kb-sample-file-2.png
+]
+INFO:[4248282880] Send cmd:[GetFile GET 1kb-sample-file-2.png
+] sent bytes:[4096] fd:[3]
+INFO:[4248282880] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 1073] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 1073]
+INFO:[4248282880] Parsed:[GetFile][OK][1073]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [1073]
+====>[4248282880] Recd file:[1kb-sample-file-2.png][1073 bytes][1 recvs]
+====>[4248282880] Total Requests Done:[88]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59359) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59359
+INFO:[4248282880] Dequed value : [1kb-sample-file-3.jpg
+]
+INFO:[4248282880] deQ filename:[1kb-sample-file-3.jpg
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 1kb-sample-file-3.jpg
+]
+INFO:[4248282880] Parsed:[GetFile][GET][1kb-sample-file-3.jpg
+]
+INFO:[4248282880] Send cmd:[GetFile GET 1kb-sample-file-3.jpg
+] sent bytes:[4096] fd:[3]
+====>[4214712064] Recd file:[1kb-sample-file-1.html][1034 bytes][1 recvs]
+====>[4214712064] Total Requests Done:[89]
+INFO:[4214712064] Init socket
+INFO:[4214712064] Server Name: 0.0.0.0
+INFO:[4214712064] Connecting to [0.0.0.0] on port [8888]
+INFO:[4214712064] Opened socket as fd (4) on port (59360) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59360
+INFO:[4214712064] Dequed value : [1kb-sample-file-4.png
+]
+INFO:[4214712064] deQ filename:[1kb-sample-file-4.png
+]
+INFO:[4214712064] Parsing REQUEST[GetFile GET 1kb-sample-file-4.png
+]
+INFO:[4214712064] Parsed:[GetFile][GET][1kb-sample-file-4.png
+]
+INFO:[4214712064] Send cmd:[GetFile GET 1kb-sample-file-4.png
+] sent bytes:[4096] fd:[4]
+INFO:[4248282880] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 1295] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 1295]
+INFO:[4248282880] Parsed:[GetFile][OK][1295]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [1295]
+====>[4248282880] Recd file:[1kb-sample-file-3.jpg][1295 bytes][1 recvs]
+====>[4248282880] Total Requests Done:[90]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59361) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59361
+INFO:[4248282880] Dequed value : [10mb-sample-file-2.mpg
+]
+INFO:[4248282880] deQ filename:[10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Parsed:[GetFile][GET][10mb-sample-file-2.mpg
+]
+INFO:[4248282880] Send cmd:[GetFile GET 10mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[3]
+INFO:[4214712064] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4214712064] Recd response:[GetFile OK 1273] recv bytes:[4096]
+INFO:[4214712064] Parsing RESPONSE[GetFile OK 1273]
+INFO:[4214712064] Parsed:[GetFile][OK][1273]
+INFO:[4214712064] Streaming file only - no write
+INFO:[4214712064] Filesize is [1273]
+====>[4214712064] Recd file:[1kb-sample-file-4.png][1273 bytes][1 recvs]
+====>[4214712064] Total Requests Done:[91]
+INFO:[4248282880] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 10727428] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 10727428]
+INFO:[4248282880] Parsed:[GetFile][OK][10727428]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [10727428]
+====>[4206319360] Recd file:[10mb-sample-file-1.txt][10485760 bytes][2700 recvs]
+====>[4206319360] Total Requests Done:[92]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (4) on port (59362) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59362
+INFO:[4206319360] Dequed value : [1mb-sample-file-0.jpg
+]
+INFO:[4206319360] deQ filename:[1mb-sample-file-0.jpg
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 1mb-sample-file-0.jpg
+]
+INFO:[4206319360] Parsed:[GetFile][GET][1mb-sample-file-0.jpg
+]
+INFO:[4206319360] Send cmd:[GetFile GET 1mb-sample-file-0.jpg
+] sent bytes:[4096] fd:[4]
+INFO:[4206319360] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 1006093] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 1006093]
+INFO:[4206319360] Parsed:[GetFile][OK][1006093]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [1006093]
+====>[4206319360] Recd file:[1mb-sample-file-0.jpg][1006093 bytes][258 recvs]
+====>[4206319360] Total Requests Done:[93]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (4) on port (59363) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59363
+INFO:[4206319360] Dequed value : [1mb-sample-file-1.txt
+]
+INFO:[4206319360] deQ filename:[1mb-sample-file-1.txt
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 1mb-sample-file-1.txt
+]
+INFO:[4206319360] Parsed:[GetFile][GET][1mb-sample-file-1.txt
+]
+INFO:[4206319360] Send cmd:[GetFile GET 1mb-sample-file-1.txt
+] sent bytes:[4096] fd:[4]
+INFO:[4206319360] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 1048576] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 1048576]
+INFO:[4206319360] Parsed:[GetFile][OK][1048576]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [1048576]
+====>[4206319360] Recd file:[1mb-sample-file-1.txt][1048576 bytes][268 recvs]
+====>[4206319360] Total Requests Done:[94]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (4) on port (59364) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59364
+INFO:[4206319360] Dequed value : [1mb-sample-file-2.mpg
+]
+INFO:[4206319360] deQ filename:[1mb-sample-file-2.mpg
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 1mb-sample-file-2.mpg
+]
+INFO:[4206319360] Parsed:[GetFile][GET][1mb-sample-file-2.mpg
+]
+INFO:[4206319360] Send cmd:[GetFile GET 1mb-sample-file-2.mpg
+] sent bytes:[4096] fd:[4]
+INFO:[4206319360] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 1116296] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 1116296]
+INFO:[4206319360] Parsed:[GetFile][OK][1116296]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [1116296]
+====>[4206319360] Recd file:[1mb-sample-file-2.mpg][1116296 bytes][286 recvs]
+====>[4206319360] Total Requests Done:[95]
+INFO:[4206319360] Init socket
+INFO:[4206319360] Server Name: 0.0.0.0
+INFO:[4206319360] Connecting to [0.0.0.0] on port [8888]
+INFO:[4206319360] Opened socket as fd (4) on port (59365) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59365
+INFO:[4206319360] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4206319360] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4206319360] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4206319360] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4206319360] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[4]
+INFO:[4206319360] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4206319360] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4206319360] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4206319360] Parsed:[GetFile][OK][1236525]
+INFO:[4206319360] Streaming file only - no write
+INFO:[4206319360] Filesize is [1236525]
+====>[4206319360] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][317 recvs]
+====>[4206319360] Total Requests Done:[96]
+====>[4248282880] Recd file:[10mb-sample-file-2.mpg][10727428 bytes][2764 recvs]
+====>[4248282880] Total Requests Done:[97]
+INFO:[4248282880] Init socket
+INFO:[4248282880] Server Name: 0.0.0.0
+INFO:[4248282880] Connecting to [0.0.0.0] on port [8888]
+INFO:[4248282880] Opened socket as fd (3) on port (59366) for stream i/o
+Server
+		  sin_family        = 2
+		  sin_addr.s_addr   = 16777343
+		  sin_port          = 59366
+INFO:[4248282880] Dequed value : [1mb-sample-file-4.mpg
+]
+INFO:[4248282880] deQ filename:[1mb-sample-file-4.mpg
+]
+INFO:[4248282880] Parsing REQUEST[GetFile GET 1mb-sample-file-4.mpg
+]
+INFO:[4248282880] Parsed:[GetFile][GET][1mb-sample-file-4.mpg
+]
+INFO:[4248282880] Send cmd:[GetFile GET 1mb-sample-file-4.mpg
+] sent bytes:[4096] fd:[3]
+INFO:[4248282880] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4248282880] Recd response:[GetFile OK 1236525] recv bytes:[4096]
+INFO:[4248282880] Parsing RESPONSE[GetFile OK 1236525]
+INFO:[4248282880] Parsed:[GetFile][OK][1236525]
+INFO:[4248282880] Streaming file only - no write
+INFO:[4248282880] Filesize is [1236525]
+====>[4248282880] Recd file:[1mb-sample-file-4.mpg][1236525 bytes][317 recvs]
+====>[4248282880] Total Requests Done:[98]

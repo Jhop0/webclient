@@ -6,14 +6,7 @@
  */
 
 #include "webclient.h"
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <netdb.h>
-#include <string.h>
-#include <unistd.h>
-#include <stdio.h>
-#include <fcntl.h> /* O_WRONLY, O_CREAT */
+
 
 
 void error (const char *msg)
@@ -38,18 +31,14 @@ void usage(void)
 
 int main(int argc, char* argv[])
 {
-    int clientSocket;               	  	/* handle to socket */
-    char recvBuffer[RECV_BUFFER_SIZE];
-    char sendBuffer[SEND_BUFFER_SIZE];
-    char tmpSendBuffer[SEND_BUFFER_SIZE];
-    char tmpRecvBuffer[RECV_BUFFER_SIZE];
-    char serverName[HOST_NAME_SIZE];
-    //int serverPort;
-    unsigned long fileSz;
-    size_t sentBytes, readBytes;
-    char *fileNameToken, *getFileCmdToken, *getToken;
-    char *getFileToken, *getStatusToken, *fileSzToken;
-    int opt=0;
+    char fileName[FILENAME_MAX_SIZE + 1];
+    pthread_t tid[WORKER_THREADS_MAX];
+    int i, j=0, opt=0;
+    int reqPerThread = 0;
+    int workerThreads = DEF_WORKER_THREADS;
+	int totalReq = DEF_TOTAL_REQ;
+	FILE * fpWorkload;
+	struct timeval start,end;
 
 	/* Init the globals */
     serverAddr = DEF_SERVER_ADDR;
@@ -57,8 +46,12 @@ int main(int argc, char* argv[])
 	workloadPath = DEF_WLOAD_PATH;
 	downloadPath = DEF_DLOAD_PATH;
 	metricsPath = DEF_METRICS_PATH;
-	int workerThreads = DEF_WORKER_THREADS;
-	int totalReq = DEF_TOTAL_REQ;
+	gtotalReqDone = 0;
+
+	/* Init the mutex */
+	pthread_mutex_t mtex = PTHREAD_MUTEX_INITIALIZER;  	/* mutex lock for buffer */
+	//pthread_cond_t mtex_cond = PTHREAD_COND_INITIALIZER; /* producer waits on this cond var */
+	pthread_cond_init(&mtex_cond, NULL);
 
     while ((opt = getopt(argc, argv, "s:p:t:w:d:r:m:h")) != -1)
 	{
@@ -66,60 +59,140 @@ int main(int argc, char* argv[])
 		{
 			case 's':
 				serverAddr = optarg;
-				printf("\nOption value=%d", serverAddr);
+				printf("Server address:[%s]\n", serverAddr);
 				break;
 			case 'p':
 				serverPort = atoi(optarg);
-				printf("\nOption value=%d", serverPort);
+				printf("Server port:[%d]\n", serverPort);
 				break;
 			case 't':
 				workerThreads = atoi(optarg);;
-				printf("\nOption value=%d", workerThreads);
+				printf("Worker threads:[%d]\n", workerThreads);
+				if ( (workerThreads > WORKER_THREADS_MAX) || (totalReq < 1) ) usage();
 				break;
 			case 'w':
 				workloadPath = optarg;
 				trimwhitespace(workloadPath);
-				printf("\nOption value=%s\n", workloadPath);
+				printf("Workload filename:[%s]\n", workloadPath);
 				break;
 			case 'd':
 				downloadPath = optarg;
 				trimwhitespace(downloadPath);
-				printf("\nOption value=%s\n", downloadPath);
+				printf("Download path:[%s]\n", downloadPath);
 				break;
 			case 'r':
 				totalReq = atoi(optarg);
-				printf("\nOption value=%d\n", totalReq);
+				printf("Total requests:[%d]\n", totalReq);
+				if ( (totalReq > REQUEST_MAX) || (totalReq < 1)) usage();
 				break;
 			case 'm':
 				metricsPath = optarg;
-				printf("\nOption value=%s\n", metricsPath);
+				printf("Metrics filename:[%s]\n", metricsPath);
 				break;
 			case 'h':
 				usage();
 				break;
 			case '?':
-				printf("\nMissing argument(s)");
+				printf("Missing argument(s)\n");
 				usage();
 				break;
 		 }
 	 }
 
-
-    //strcpy(serverName,argv[1]);
-	//serverPort=atoi(argv[2]);
-
-    /* Initialize socket */
-    clientSocket = socketInit();
-    serverConnect(serverAddr, serverPort, clientSocket);
-
-    serverReq(clientSocket);
-
-	printf("\nClosing socket\n");
-			/* close socket */
-	if(close(clientSocket) == SOCKET_ERROR)
+    fpWorkload = fopen("workload.txt", "r");
+	printf("DEBUG: Workload:[%s], fd:[%d]\n", workloadPath, fpWorkload);
+	if ( fpWorkload == NULL )
 	{
-		printf("\nCould not close socket\n");
+		perror("ERROR: Error reading workload file\n");
+		return -1;
+	}
+
+	g_fpMetrics = fopen(metricsPath, "w");
+	printf("DEBUG: Workload:[%s], fd:[%d]\n", workloadPath, fpWorkload);
+	if ( g_fpMetrics == NULL )
+	{
+		perror("ERROR: Error opening metrics file\n");
+		return -1;
+	}
+    /* Create request Q */
+	createQ();
+	createQMetrics();
+
+	/* Create worker thread pool */
+	printf("--> Creating [%d] worker threads .... \n", workerThreads);
+	/* create/fork threads */
+
+	int tmpWorkerThreads=workerThreads;
+
+	if (totalReq <= workerThreads)
+	{
+		tmpWorkerThreads = totalReq;
+		reqPerThread = 1;
+	}
+	else
+	{
+		reqPerThread = totalReq / tmpWorkerThreads;
+	}
+
+	for (i = 1; i < (tmpWorkerThreads+1); i++)
+	{
+		if (totalReq == tmpWorkerThreads)
+		{
+			pthread_create(&tid[i], NULL, serverReq, reqPerThread);
+		}
+		else
+		{
+			if (i <= (totalReq % tmpWorkerThreads))
+			{
+				pthread_create(&tid[i], NULL, serverReq, reqPerThread+1);
+			}
+			else
+			{
+				pthread_create(&tid[i], NULL, serverReq, reqPerThread);
+			}
+
+		} /* If */
+
+	} /* For */
+
+	/* Metrics */
+	threadsWaiting = tmpWorkerThreads;
+	gettimeofday(&start, NULL);
+
+	for(j=0; j < totalReq; j++)
+	{
+		if ( (fgets(fileName, 80, fpWorkload) == NULL) ) rewind(fpWorkload);
+		pthread_mutex_lock (&mtex);
+		enQ(fileName);
+		pthread_cond_broadcast (&mtex_cond);
+		//displayQ();
+		pthread_mutex_unlock (&mtex);
 
 	}
+
+	fclose(fpWorkload);
+
+	for (i = 1; i < tmpWorkerThreads+1; i++)
+	{
+			pthread_join(tid[i], NULL);
+	}
+	gettimeofday(&end, NULL);
+
+
+
+	while (emptyQMetrics() != 1)
+	{
+		perThreadElapsedTime += deQMetrics();
+	}
+	fclose(g_fpMetrics);
+
+	totalElapsedTime = (end.tv_sec * 1000000 + end.tv_usec)
+						  - (start.tv_sec * 1000000 + start.tv_usec);
+	printf("COMPLETION: Total recv bytes:[%lu]\n", totalRecvBytes);
+	printf("COMPLETION: Total client runtime:[%lu]usec/[%lu]msec\n", totalElapsedTime, totalElapsedTime / 1000);
+	printf("COMPLETION: Per request cumulative runtime:[%lu]usec/[%lu]msec\n", perThreadElapsedTime, perThreadElapsedTime / 1000);
+	printf("COMPLETION: Average response time:[%lu]usec/[%lu]msec per thread\n", (perThreadElapsedTime / tmpWorkerThreads),(perThreadElapsedTime / 1000 / tmpWorkerThreads));
+	printf("COMPLETION: Average throughput:[%lu]Bytes/usec [%lu]Bytes/sec \n", (totalRecvBytes/(perThreadElapsedTime / tmpWorkerThreads)),(totalRecvBytes*1000000/(perThreadElapsedTime / tmpWorkerThreads)));
+
 return 0;
 }
