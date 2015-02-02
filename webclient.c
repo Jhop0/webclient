@@ -39,6 +39,7 @@ int main(int argc, char* argv[])
 	int totalReq = DEF_TOTAL_REQ;
 	FILE * fpWorkload;
 	struct timeval start,end;
+	struct stat dirInfo;
 
 	/* Init the globals */
     serverAddr = DEF_SERVER_ADDR;
@@ -46,6 +47,7 @@ int main(int argc, char* argv[])
 	workloadPath = DEF_WLOAD_PATH;
 	downloadPath = DEF_DLOAD_PATH;
 	metricsPath = DEF_METRICS_PATH;
+
 	gtotalReqDone = 0;
 
 	/* Init the mutex */
@@ -99,8 +101,20 @@ int main(int argc, char* argv[])
 		 }
 	 }
 
-    fpWorkload = fopen("workload.txt", "r");
-	printf("DEBUG: Workload:[%s], fd:[%d]\n", workloadPath, fpWorkload);
+    printf("=========================================\n");
+    printf("Webclient Init Params\n");
+    printf("=========================================\n");
+    printf("Server address:\t\t[%s]\n", serverAddr);
+    printf("Server port:\t\t[%d]\n", serverPort);
+    printf("Worker threads:\t\t[%d]\n", workerThreads);
+    printf("Workload filename:\t[%s]\n", workloadPath);
+    printf("Download path:\t\t[%s]\n", downloadPath);
+    printf("Total requests:\t\t[%d]\n", totalReq);
+    printf("Metrics filename:\t[%s]\n", metricsPath);
+    printf("==========================================\n");
+
+    fpWorkload = fopen(workloadPath, "r");
+	//printf("DEBUG: Workload:[%s], fd:[%d]\n", workloadPath, fpWorkload);
 	if ( fpWorkload == NULL )
 	{
 		perror("ERROR: Error reading workload file\n");
@@ -108,22 +122,28 @@ int main(int argc, char* argv[])
 	}
 
 	g_fpMetrics = fopen(metricsPath, "w");
-	printf("DEBUG: Workload:[%s], fd:[%d]\n", workloadPath, fpWorkload);
+	//printf("DEBUG: Workload:[%s], fd:[%d]\n", metricsPath, fpMetrics);
 	if ( g_fpMetrics == NULL )
 	{
 		perror("ERROR: Error opening metrics file\n");
 		return -1;
 	}
+
+
+
+	if( stat( downloadPath, &dirInfo ) != 0 )
+	{
+		perror("ERROR: Download path not valid\n");
+		return -1;
+	}
+
     /* Create request Q */
 	createQ();
 	createQMetrics();
 
 	/* Create worker thread pool */
 	printf("--> Creating [%d] worker threads .... \n", workerThreads);
-	/* create/fork threads */
-
 	int tmpWorkerThreads=workerThreads;
-
 	if (totalReq <= workerThreads)
 	{
 		tmpWorkerThreads = totalReq;
@@ -161,7 +181,7 @@ int main(int argc, char* argv[])
 
 	for(j=0; j < totalReq; j++)
 	{
-		if ( (fgets(fileName, 80, fpWorkload) == NULL) ) rewind(fpWorkload);
+		if ( (fgets(fileName, FILENAME_MAX_SIZE, fpWorkload) == NULL) ) rewind(fpWorkload);
 		pthread_mutex_lock (&mtex);
 		enQ(fileName);
 		pthread_cond_broadcast (&mtex_cond);
@@ -169,17 +189,15 @@ int main(int argc, char* argv[])
 		pthread_mutex_unlock (&mtex);
 
 	}
-
 	fclose(fpWorkload);
 
 	for (i = 1; i < tmpWorkerThreads+1; i++)
 	{
-			pthread_join(tid[i], NULL);
+		pthread_join(tid[i], NULL);
 	}
 	gettimeofday(&end, NULL);
 
-
-
+	/* DeQ the metrics data */
 	while (emptyQMetrics() != 1)
 	{
 		perThreadElapsedTime += deQMetrics();
@@ -193,6 +211,8 @@ int main(int argc, char* argv[])
 	printf("COMPLETION: Per request cumulative runtime:[%lu]usec/[%lu]msec\n", perThreadElapsedTime, perThreadElapsedTime / 1000);
 	printf("COMPLETION: Average response time:[%lu]usec/[%lu]msec per thread\n", (perThreadElapsedTime / tmpWorkerThreads),(perThreadElapsedTime / 1000 / tmpWorkerThreads));
 	printf("COMPLETION: Average throughput:[%lu]Bytes/usec [%lu]Bytes/sec \n", (totalRecvBytes/(perThreadElapsedTime / tmpWorkerThreads)),(totalRecvBytes*1000000/(perThreadElapsedTime / tmpWorkerThreads)));
+
+
 
 return 0;
 }

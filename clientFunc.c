@@ -24,26 +24,23 @@ void *serverReq(int reqThread)
 	char tmpSendBuffer[SEND_BUFFER_SIZE];
 	char *fileNameToken, *getFileCmdToken, *getToken;
 	char *getFileToken, *getStatusToken, *fileSzToken;
-	char *tmpFilePath;
-	char *sendFilePath;
 	char *targetFileName;
+	char *targetFilePath;
 	unsigned long fileSz;
 	ssize_t recvBytes;
 	ssize_t sentBytes;
 	int clientSocket;
 	int reqDone = 0;
 	FILE * fp;
-	struct timeval start, end;
 
-
-	printf("INFO:[%010u] Entered serverReq\n", pthread_self());
+	//printf("INFO:[%010u] Entered serverReq\n", pthread_self());
 	printf("INFO:[%010u] Requests needed from thread:[%d]\n", pthread_self(), (int) reqThread);
-	targetFileName = (char *) malloc(sizeof(char) * 1024);
+	targetFileName = (char *) malloc(sizeof(char) * FILENAME_MAX_SIZE);
+	targetFilePath = (char *) malloc(sizeof(char) * GETFILE_PATH_MAX);
 
 	while (reqDone < reqThread)
 	{
 		pthread_mutex_lock (&mtex);
-
 		while (emptyQ() == 1)
 		{  /* block if buffer empty */
 			printf("INFO:[%010u] waiting ...\n",pthread_self());
@@ -59,15 +56,12 @@ void *serverReq(int reqThread)
 		printf("INFO:[%010u] deQ filename[%s]\n", pthread_self(), targetFileName);
 		pthread_mutex_unlock (&mtex);
 
+		memset(sendBuffer, 0, sizeof(sendBuffer));
+		memset(tmpSendBuffer, 0, sizeof(tmpSendBuffer));
+		memset(recvBuffer, 0, sizeof(recvBuffer));
+		memset(tmpRecvBuffer, 0, sizeof(tmpRecvBuffer));
 
-		bzero((char *) &sendBuffer, sizeof(sendBuffer)+1);
-		bzero((char *) &tmpSendBuffer, sizeof(tmpSendBuffer)+1);
-		bzero((char *) &recvBuffer, sizeof(recvBuffer)+1);
-		bzero((char *) &tmpRecvBuffer, sizeof(recvBuffer)+1);
 		/*Parse GetFile request */
-		//printf("\nEnter GetFile cmd: \n");
-		//fgets(sendBuffer,SEND_BUFFER_SIZE,stdin);
-		//sprintf(sendBuffer, "%s", "GetFile GET 10mb-sample-file-0.mpg");
 		sprintf(sendBuffer, "%s%s", GETFILE_CMD, targetFileName);
 		printf("INFO:[%010u] Parsing REQ[%s]\n", pthread_self(), sendBuffer);
 		strcpy(tmpSendBuffer,sendBuffer);
@@ -76,7 +70,6 @@ void *serverReq(int reqThread)
 		fileNameToken = strtok(NULL, " ");
 		printf( "INFO:[%010u] Parsed REQ[%s][%s][%s]\n", pthread_self(), getFileCmdToken, getToken, fileNameToken);
 
-		//
 		/*Send the GetFile Req to Server */
 		sentBytes = send(clientSocket,sendBuffer,SEND_BUFFER_SIZE,0);
 		printf("INFO:[%010u] Send REQ[%s] sent bytes:[%d] fd:[%d]\n",pthread_self(), sendBuffer, sentBytes, clientSocket);
@@ -103,13 +96,12 @@ void *serverReq(int reqThread)
 		/* Convert fileSzToken to int */
 		fileSz = strtol (fileSzToken, NULL, 10);
 
-		//printf("DEBUG:[%010u] Rec File: [%s]\n", pthread_self(), fileNameToken);
-
-
-		if ( ((fp = fopen(fileNameToken, "r")) != NULL) || (strcmp(downloadPath, "") == 0) )
+		sprintf(targetFilePath,"%s%s", downloadPath, fileNameToken);
+		printf("TFPath:[%s]\n", targetFilePath);
+		if ( ((fp = fopen(targetFilePath, "r")) != NULL) || (strcmp(downloadPath, "") == 0) )
 		{
 			if (fp != NULL) fclose(fp);
-			if ( (recvFileNoWrite(clientSocket, fileNameToken, fileSz)) > 0)
+			if ( (recvFileNoWrite(clientSocket, targetFilePath, fileSz)) > 0)
 			{
 				pthread_mutex_lock (&mtex);
 				gtotalReqDone++;
@@ -120,7 +112,7 @@ void *serverReq(int reqThread)
 		}
 		else if (fp == NULL)
 		{
-			if ( (recvFile(clientSocket, fileNameToken, fileSz)) > 0)
+			if ( (recvFile(clientSocket, targetFilePath, fileSz)) > 0)
 			{
 				pthread_mutex_lock (&mtex);
 				gtotalReqDone++;
@@ -137,13 +129,14 @@ void *serverReq(int reqThread)
 	} /* While */
 
 	free(targetFileName);
+	free(targetFilePath);
 	pthread_exit(0);
 	return NULL;
 }
 
 int recvFile(int sock, char* file_name, unsigned long fSize)
 {
-	int f; /* file handle for receiving file*/
+	//int f; /* file handle for receiving file*/
 	FILE * fp;
 	ssize_t recvBytes;
 	ssize_t recvFileSize;
@@ -184,9 +177,9 @@ int recvFile(int sock, char* file_name, unsigned long fSize)
 			return -1;
 		} */
 		fSize = fSize - recvBytes;
-		printf("DEBUG:[%010u] Recd bytes:[%d] write file bytes:[%d] bytes remaining:[%d]\n",pthread_self(),recvBytes, writtenBytes, fSize);
+		//printf("DEBUG:[%010u] Recd bytes:[%d] write file bytes:[%d] bytes remaining:[%d]\n",pthread_self(),recvBytes, writtenBytes, fSize);
 	}
-	close(fp); /* close file*/
+	fclose(fp); /* close file*/
 	printf("====>[%010u] Recd file:[%s][%d bytes][%d recvs]\n", pthread_self(), file_name, recvFileSize,	recvCount);
 
 	/* Metrics collection */

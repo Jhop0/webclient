@@ -59,7 +59,7 @@ void enQMetrics(unsigned long timeElapsed)
         tempMetrics->ptr = NULL;
         rearMetrics = tempMetrics;
     }
-    printf("DEBUG:[%010u] New Q entry:[%lu]\n", pthread_self(), timeElapsed);
+    //printf("DEBUG:[%010u] New Q entry:[%lu]\n", pthread_self(), timeElapsed);
     countMetrics++;
 
 }
@@ -79,14 +79,14 @@ unsigned long deQMetrics()
 		if (front1Metrics->ptr != NULL)
 		{
 			front1Metrics = front1Metrics->ptr;
-			printf("INFO:[%010u] Dequed value : [%lu]\n", pthread_self(), frontMetrics->perReqElapsed);
+			//printf("INFO:[%010u] Dequed value : [%lu]\n", pthread_self(), frontMetrics->perReqElapsed);
 			timeElapsed = frontMetrics->perReqElapsed;
 			free(frontMetrics);
 			frontMetrics = front1Metrics;
 		}
 		else
 		{
-			printf("INFO:[%010u] Dequed value : [%lu]\n", pthread_self(), frontMetrics->perReqElapsed);
+			//printf("INFO:[%010u] Dequed value : [%lu]\n", pthread_self(), frontMetrics->perReqElapsed);
 			timeElapsed = frontMetrics->perReqElapsed;
 			free(frontMetrics);
 			frontMetrics = NULL;
@@ -153,7 +153,7 @@ void enQ(char *newFileName)
         temp->ptr = NULL;
         rear = temp;
     }
-    printf("DEBUG:[%010u] New Q entry:[%s]\n", pthread_self(), newFileName);
+    //printf("DEBUG:[%010u] New Q entry:[%s]\n", pthread_self(), newFileName);
     count++;
     //displayQ();
 }
@@ -197,7 +197,7 @@ int deQ(char *fileName)
         if (front1->ptr != NULL)
         {
             front1 = front1->ptr;
-            printf("INFO:[%010u] deQ value[%s]\n", pthread_self(), front->fName);
+            //printf("INFO:[%010u] deQ value[%s]\n", pthread_self(), front->fName);
             strcpy(fileName,front->fName);
             free(front->fName);
             free(front);
@@ -205,7 +205,7 @@ int deQ(char *fileName)
         }
         else
         {
-            printf("INFO:[%010u] deQ value[%s]\n", pthread_self(), front->fName);
+            //printf("INFO:[%010u] deQ value[%s]\n", pthread_self(), front->fName);
             strcpy(fileName,front->fName);
             free(front->fName);
             free(front);
